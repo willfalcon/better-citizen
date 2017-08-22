@@ -1,0 +1,103 @@
+/*
+Theme Name: Good Citizen
+Theme URI: http://cocreative.io
+Author: Co.Creative
+Author URI: http://cocreative.io
+Description: Wordpress theme developed for Good Citizen's eCommerce store.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: goodcitizen
+*/
+
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.gc-nav-logo {
+  font-size: 18px;
+  max-height: 100%;
+}
+
+.gc-nav-dark > div > ul > li > a {
+  color: white;
+}
+
+.gc-nav-light > div > ul > li > a {
+  color: black;
+}
+
+.gc-first-bg-row {
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: 100%;
+  background-blend-mode: overlay;
+}
+
+.gc-landing-row {
+  height: 600px;
+  padding-top: 8%;
+  text-align: center;
+  line-height: 2;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gc-landing-row-dark {
+  color: white;
+}
+
+.gc-landing-row-light {
+  color: black;
+}
+
+
+/*===============================*/
+/*== WooCommerce Custom Styles ==*/
+/*===============================*/
+
+.gc-shop-wrapper {
+  padding: 7%;
+}
+
+.gc-product {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.gc-product-title {
+  color: rgb(33, 37, 41);
+  text-align: center;
+  line-height: 1.2;
+}
+
+.gc-btn {
+  text-align: center;
+}
+
+.gc-price {
+  display: block;
+  text-align: center;
+}
+
+.gc-add-to-cart {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;
+}
+
+.gc-price-container {
+  width: 100%;
+  display: inline-flex;
+}
